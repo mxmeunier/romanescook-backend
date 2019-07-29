@@ -2,3 +2,5 @@ CREATE TABLE recipe (
     id SMALLSERIAL NOT NULL PRIMARY KEY,
     title VARCHAR(100) NOT NULL UNIQUE
 );
+
+INSERT INTO recipe (title) VALUES ('Pancakes');
