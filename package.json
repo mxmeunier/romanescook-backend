@@ -1,0 +1,23 @@
+{
+  "name": "romanescook-backend",
+  "version": "1.0.0",
+  "description": "Romanescook application API and database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxmeunier/romanescook-backend.git"
+  },
+  "author": "Maxime Meunier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mxmeunier/romanescook-backend/issues"
+  },
+  "homepage": "https://github.com/mxmeunier/romanescook-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^5.13.1"
+  }
+}
